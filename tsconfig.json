@@ -1,0 +1,15 @@
+{
+  "extends": "@tsconfig/recommended/tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react",
+    "lib": ["DOM", "es2015"],
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@project/components": ["../../../lib/react-components/src"]
+    }
+  },
+  "include": [
+    "../../../lib/react-components"
+  ]
+}
